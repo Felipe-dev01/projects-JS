@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/script.js"></script>
+    
+</head>
+<body class="corpo">
+  <section>
+       <h1> Felipe</h1>
+        
+        <div class="field">
+            <label for="num1">Primeiro Número:</label>
+            <input type="number" id="num1" class="num1" placeholder="Digite o 1º número *" required>
+        </div>
+        
+        <div class="field">
+            <label for="num2">Segundo Número:</label>
+            <input type="number" id="num2" class="num2" placeholder="Digite o 2º número *" required>
+        </div>
+
+        <div class="field">
+            <label for="num2">Terceiro Número:</label>
+            <input type="number" id="num3" class="num3" placeholder="Digite o 3º número *" required>
+        </div>
+
+        <div class="field">
+            <label for="result">Resultado:</label>
+            <input type="text" id="resultado" name="resultado"  >
+        </div>        
+        
+        <div class="btn">
+            <button id="total" onclick="analisar()">Analisar</button>
+        </div>       
+    </section>
+</body>
+</html>
