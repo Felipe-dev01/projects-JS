@@ -1,4 +1,4 @@
-# Exercises and Projects Repository
+# Exercises and Projects JavaScript
 
 Welcome to my repository of exercises and projects! Here you'll find a collection of programming exercises and practical projects that I've developed over time to enhance my skills in various areas of technology.
 
@@ -6,7 +6,6 @@ Welcome to my repository of exercises and projects! Here you'll find a collectio
 
 - [About](#about)
 - [Repository Structure](#repository-structure)
-- [How to Contribute](#how-to-contribute)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
@@ -21,17 +20,6 @@ The repository is organized by topics and programming languages. Each directory 
 /Exercises
 /Projects
 
-
-## How to Contribute
-
-If you wish to contribute to this repository, please follow the steps below:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-contribution`.
-3. Make your changes and add your commits: `git commit -m 'Adding new feature'`.
-4. Push to your fork: `git push origin my-contribution`.
-5. Open a Pull Request explaining the changes you've made.
-
 ## Technologies Used
 
 - **JavaScript**
@@ -40,7 +28,7 @@ If you wish to contribute to this repository, please follow the steps below:
 
 ## Contact
 
-If you'd like to get in touch, feel free to send me a message through my (https://github.com/felipe-dev01). or via email: farias_felipe@outlook.com.br.
+If you'd like to get in touch, feel free to send me a message through my email: farias_felipe@outlook.com.br.
 
 ---
 
