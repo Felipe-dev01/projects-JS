@@ -1,32 +1,51 @@
-.corpo{
-    width: 400px;
-    padding: 30px;
-    border:1px solid #000000;
-    background-color: rgb(255, 255, 255);
-    color: #000000;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-.corpo p{
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Largura fixa para o formulário */
+}
+
+h1{
+    text-align: center;
+}
+
+.container p {
     width: 100%;
     font-size: 1.5em;
+    text-align: center;
 }
-.field{
+
+.field {
     width: 100%;
     margin: 15px 0;
 }
-.field label, 
-.field span{
+
+.field label {
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
-    width: 100%;
+    margin-bottom: 5px;
 }
-.radiobox label{
+
+.radiobox label {
     width: auto;
     display: inline-block;
+    margin-right: 10px;
 }
+
 input[type=text],
-input[type=number]{
-    width: 100%;
+input[type=number] {
+    width: calc(100% - 20px);
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
@@ -35,15 +54,17 @@ input[type=number]{
     outline: none;
 }
 
-button{
+button {
     display: block;
     background-color: #ee7474;
+    color: white;
     height: 35px;
     border: none;
     outline: 0;
     cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 20px 0;
     text-align: center;
-    border-radius: 35px;
+    border-radius: 15px;
+    font-size: 1em;
 }

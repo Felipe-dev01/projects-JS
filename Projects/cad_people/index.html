@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/script.js"></script>
+</head>
+<body class="corpo">
+    <div class="container">
+        <h1>Cadastro</h1>
+        
+        <div class="field">
+            <label>Primeiro Nome:</label>
+            <input type="text" id="pri_nome" class="pri_nome" placeholder="Felipe" required>
+        </div>
+        
+        <div class="field">
+            <label>Segundo Nome:</label>
+            <input type="text" id="seg_nome" class="seg_nome" placeholder="Teixeira Farias" required>
+        </div>
+
+        <div class="field">
+            <label>CPF:</label>
+            <input type="number" id="cpf" class="cpf" placeholder="XXX.XXX.XXX-XX" required>
+        </div>
+
+        <div class="field">
+            <label>RG:</label>
+            <input type="number" id="rg" class="rg" placeholder="XX.XXX.XXX-X" required>
+        </div>
+        
+        <div class="field radiobox">
+            <label>Sexo:</label>
+            <br>
+            <label><input type="radio" name="sexo" value="1" checked> Homem</label>
+            <label><input type="radio" name="sexo" value="2"> Mulher</label>
+        </div>
+
+        <div class="field">
+            <label>Quantidade de pessoas:</label>
+            <input type="number" id="qtd_pesoas" class="qtd_pessoas" required>
+        </div>
+
+        <div class="field">
+            <label>Adultos:</label>
+            <input type="number" id="qtd_adultos" class="qtd_adultos" required>
+        </div>
+
+        <div class="field">
+            <label>Crianças:</label>
+            <input type="number" id="qtd_criancas" class="qtd_criancas" required>
+        </div>
+
+        <div class="field">
+            <label>Salário:</label>
+            <input type="number" id="salario" class="salario" placeholder="R$ 1.000,00" required>
+        </div>
+
+        <div class="field">
+            <label>Renda familiar:</label>
+            <input type="number" id="renda" class="renda" placeholder="R$ 1.000,00" required>
+        </div>  
+       
+        <button onclick="dados()">Conferir/Enviar</button>
+    </div>
+</body>
+</html>

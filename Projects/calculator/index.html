@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Verificação de números</title>
+    <title>Calculadora</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <script src="js/script.js"></script>
-    
 </head>
 <body class="corpo">
-  <section>
-       <h1>VERIFICAÇÃO DE NÚMEROS</h1>
+    <div class="container">
+        <h1>Digite os valores</h1>
         
         <div class="field">
             <label for="num1">Primeiro Número:</label>
@@ -22,18 +21,18 @@
         </div>
 
         <div class="field">
-            <label for="num2">Terceiro Número:</label>
-            <input type="number" id="num3" class="num3" placeholder="Digite o 3º número *" required>
-        </div>
-
-        <div class="field">
-            <label for="result">Resultado:</label>
-            <input type="text" id="resultado" name="resultado"  >
+            <label for="total">Total:</label>
+            <input type="text" id="total" name="valtotal" readonly>
         </div>        
         
-        <div class="btn">
-            <button id="total" onclick="analisar()">Analisar</button>
+        <div class="field radiobox">
+            <label><input type="radio" name="operador" value="1" checked> Soma</label>
+            <label><input type="radio" name="operador" value="2"> Subtração</label>
+            <label><input type="radio" name="operador" value="3"> Multiplicação</label>
+            <label><input type="radio" name="operador" value="4"> Divisão</label>
         </div>       
-    </section>
+       
+        <button onclick="calculadora()">Calcular</button>
+    </div>
 </body>
 </html>
